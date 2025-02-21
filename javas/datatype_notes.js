@@ -22,3 +22,9 @@ there are 7 types -
 
 ** javaScript is a dynamically typed language */
 
+/*
+=====================================
+
+stack(Primitive data type) , Heap(Non-Primitive data type)
+
+*/
