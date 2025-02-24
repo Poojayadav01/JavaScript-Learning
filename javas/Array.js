@@ -22,6 +22,30 @@ console.log(str)
 
 console.log(arr.splice(1,1))*/
 
+console.log(Array.isArray("hiii"))// check the array or not-gives boolean value
+
+console.log(Array.from("Hiiii"))//convert into
+
+const letter=['a','b', 'c', 'd']
+const letter2=['e', 'f', 'g']
+
+/*letter.push(letter2)
+console.log(letter)*/
+
+/*const letter3=letter.concat(letter2)
+console.log(letter3)*/
+
+const letter3=[...letter, ...letter2]//spread operater
+console.log(letter3)
+
+const arr3=[1,3,7,[34,6,8,],9,8]
+const arr4=arr3.flat()//convert multi-dimensional into 1-d array
+console.log(arr4)
+
+const arr5=[1,3,4,{name:'pooja',}]
+console.log(arr5)
+
+
 
 
 
