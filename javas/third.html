@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body
+<ul class="language">
+    <li>JavaScript</li>
+</ul>
+
+<script>
+    //add language in the list
+    function addLang(lang){
+     const li=document.createElement('li')
+     li.innerHTML=`${lang}`
+     document.querySelector('.language').appendChild(li)
+    }
+    addLang("python")
+    addLang("java")
+
+  //add the language in optimize way
+
+  function addOptiLang(lang){
+    const li=document.createElement('li')
+    li.appendChild(document.createTextNode(lang))
+    document.querySelector('.language').appendChild(li)
+  }
+  addOptiLang("goLang")
+
+
+  //Edit
+
+  const second=document.querySelector('li:nth-child(2)')
+  
+
+</script>
+</body>
+</html>
