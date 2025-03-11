@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asyn</title>
+</head>
+<body>
+    <h1>hello HTML</h1>
+    <button id="stop">Stop</button>
+
+
+    <script>
+
+
+    
+
+
+function hii(){
+    document.querySelector('h1').innerHTML='hello pooja'
+}
+const changeMe=setTimeout(hii, 2000)
+document.querySelector('#stop').addEventListener('click', function(){
+    clearTimeout(changeMe)
+    console.log("stppped");
+    
+})
+
+
+
+
+
+</script>
+</body>
+</html>
